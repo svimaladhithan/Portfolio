@@ -3,8 +3,8 @@ import Navbar from "./Components/Navbar";
 import Main from "./Components/Main";
 
 import Project1 from "./Assets/Projects/Project1.jpg";
-import Project2 from "./Assets/Projects/Project2.jpg";
-import Project3 from "./Assets/Projects/Project3.jpg";
+import Project2 from "./Assets/Projects/project2.jpg";
+import Project3 from "./Assets/Projects/project3.jpg";
 import About from "./Components/About";
 import Technologies from "./Components/Technologies";
 import Experience from "./Components/Experience";
