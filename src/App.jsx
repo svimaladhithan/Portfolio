@@ -82,8 +82,8 @@ An application for managing tasks and projects, with features such as task creat
 A personal portfolio website showcasing projects, skills, and contact information.
 `,
       technologies: ["HTML", "CSS", "React", "Tailwind CSS"],
-      link: 'https://main--inventorystop.netlify.app/',
-      code: 'https://github.com/svimaladhithan/Widgets-dashboard'
+      link: 'https://main--vimaladhithanportfolio.netlify.app/',
+      code: 'https://github.com/svimaladhithan/Portfolio'
     },
   ];
 
