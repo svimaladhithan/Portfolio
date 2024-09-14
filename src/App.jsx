@@ -88,7 +88,7 @@ A personal portfolio website showcasing projects, skills, and contact informatio
   ];
 
   const CONTACT = {
-    address: "17H Mahalakshmi Nagar, Gobichettipalayam",
+    address: "Erode, Tamil Nadu",
     phoneNo: "+91 8220591940",
     email: "vimaladhithan007@gmail.com",
   };
