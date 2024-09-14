@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from '../Assets/Projects/Logo.png';
 import { FaGithub, FaInstagram, FaLinkedin } from 'react-icons/fa';
+import {motion} from "framer-motion";
 
 const Navbar = () => {
     return (
@@ -10,9 +11,9 @@ const Navbar = () => {
 
             </div>
             <div className='m-8 flex items-center justify-center gap-4 text-2xl'>
-                <button><a href='https://www.linkedin.com/in/vimaladhithan-s/' target='_blank'><FaLinkedin /></a></button>
-                <button><a href='https://github.com/svimaladhithan' target='_blank'><FaGithub /></a></button>
-                <button><a href='https://www.instagram.com/vimaladhithan_s/' target='_blank'><FaInstagram /></a></button>
+                <motion.button whileHover={{scale:1.2}} ><a href='https://www.linkedin.com/in/vimaladhithan-s/' target='_blank'><FaLinkedin /></a></motion.button>
+                <motion.button whileHover={{scale:1.2}}><a href='https://github.com/svimaladhithan' target='_blank'><FaGithub /></a></motion.button>
+                <motion.button whileHover={{scale:1.2}}><a href='https://www.instagram.com/vimaladhithan_s/' target='_blank'><FaInstagram /></a></motion.button>
             </div>
         </nav>
     );

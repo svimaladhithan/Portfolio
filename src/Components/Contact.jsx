@@ -1,5 +1,8 @@
 import React from 'react';
 import {motion} from "framer-motion";
+import { FaPaperPlane } from "react-icons/fa";
+import { FaPhoneSquareAlt } from "react-icons/fa";
+
 
 const Contact = ({contact}) => {
     return (
@@ -15,12 +18,15 @@ const Contact = ({contact}) => {
                  initial={{opacity:0, x:-100}}
                  transition={{duration:1}}
                 className='my-4'>{contact.address}</motion.p>
-                <motion.p 
-                whileInView={{opacity:1, x:0}}
-                initial={{opacity:0, x:100}}
-                transition={{duration:1}}
-                className='my-4'>{contact.phoneNo}</motion.p>
-                <a href='#' className='border-b'>{contact.email}</a>
+                <motion.div 
+                 whileInView={{opacity:1, x:0}}
+                 initial={{opacity:0, x:100}}
+                 transition={{duration:1}}
+                className='flex justify-center'><FaPhoneSquareAlt className='mt-5 mr-2'/>
+                <p 
+                className='my-4'>{contact.phoneNo}</p></motion.div>
+                <div className='flex justify-center'><FaPaperPlane className='mr-2 mt-2 size-3'/>
+                <a href='#' className='border-b'>{contact.email}</a></div>
             </div>
         </div>
     );
