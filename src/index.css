@@ -8,4 +8,6 @@
     font-family: "Inter", sans-serif;
 }
 
-
+.custom-placeholder::placeholder {
+    font-size: 12px; /* Adjust the font size as needed */
+  }
