@@ -18,7 +18,15 @@ I am a Fullstack Developer with a solid foundation in web development and 6 year
 I am a Fullstack Developer with a strong foundation in web development. My journey has allowed me to hone my skills in both frontend and backend technologies. On the frontend, I excel in using React.js to build dynamic and responsive user interfaces. For the backend, I have expertise in Express.js and MongoDB, enabling me to create robust and scalable applications. My technical background, combined with my commitment to delivering efficient solutions, drives my passion for developing innovative web experiences. I am dedicated to leveraging my skills and user-focused approach to create engaging solutions that not only meet but exceed organizational goals. Whether it's through enhancing user interactions or optimizing system performance, I am enthusiastic about contributing to projects that push the boundaries of technology and creativity.`;
   const EXPERIENCES = [
     {
-      year: "2021 - Present",
+      year: "2024 - Present",
+      role: "Senior Product Engineer",
+      company: "ESG Data & Solutions",
+      description: `
+Designed and developed complex UI components with key features for the B2B SaaS platform ESGSURE AI application using React and TypeScript. Ensured seamless user interactions by implementing scalable and maintainable front-end architecture while collaborating closely with cross-functional teams.`,
+      technologies: ["HTML", "CSS", "React", "TypeScript"],
+    },
+    {
+      year: "2021 - 2024",
       role: "Senior Technical Support Specialist",
       company: "Rently Software Development Private Limited",
       description: `
@@ -26,7 +34,7 @@ Assisted in designing and implementing responsive user interfaces using HTML, CS
 `,
       technologies: ["HTML", "CSS", "JavaScript"],
     },
-    {
+{
       year: "2020 - 2021",
       role: "Process Executive",
       company: "Prakash Kochar & Co",
@@ -69,7 +77,7 @@ A fully functional e-commerce website with features like product listing, shoppi
       description: `
 An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.
 `,
-      technologies: ["HTML", "CSS", "Angular", "Firebase"],
+      technologies: ["HTML", "CSS", "React", "JavaScript"],
       link: 'https://main--widgetdashboard.netlify.app/',
       code: 'https://github.com/svimaladhithan/Widgets-dashboard'
     },
